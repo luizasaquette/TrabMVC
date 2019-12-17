@@ -13,6 +13,7 @@
    } else {
        $controller->invoke();
    }
+   echo 'Aline';
 ?>
     </body>
 </html>
