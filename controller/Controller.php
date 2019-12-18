@@ -25,6 +25,9 @@ class Controller {
             case 'logout':
                 $this->showTelaDeLogoutView();
                 break;
+            case 'luiza':
+                $this->showTelaLuiza();
+            break;
         }
     }
     
@@ -41,7 +44,9 @@ class Controller {
         include 'view/telaLogoutView.php';
     }
     
-    
+    private function showTelaLuiza(){
+        include 'view/telaLoginView.php';
+    }
 }
 
 ?>
